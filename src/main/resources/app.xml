@@ -6,7 +6,8 @@
 
 
 	<bean id="test" class="com.java.Test">
-		
+		<constructor-arg name="a" value="1111"/>
+<!-- 		<property name="a" value="1234" /> -->
 	</bean>
 
 </beans>
